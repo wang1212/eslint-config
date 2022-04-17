@@ -16,6 +16,10 @@ English | [简体中文](./README.zh-CN.md)
 
 ## Usage
 
+```bash
+npm install --save-dev @wang1212/eslint-config
+```
+
 1. Install `peerDependencies`:
 
 ```bash

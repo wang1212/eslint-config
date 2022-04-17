@@ -16,6 +16,10 @@
 
 ## 用法
 
+```bash
+npm install --save-dev @wang1212/eslint-config
+```
+
 1. 安装 `peerDependencies`：
 
 ```bash
