@@ -1,7 +1,7 @@
 # See https://docs.npmjs.com/using-npm/developers.html#keeping-files-out-of-your-package for more about ignoring files.
 
 # ide
-.vscode/
+/.vscode
 
 # dependencies
 /node_modules

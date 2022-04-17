@@ -1,67 +1,67 @@
 {
-  "name": "my-lib",
-  "version": "0.0.0",
-  "description": "",
-  "keywords": [],
-  "homepage": "#readme",
+  "name": "@wang1212/eslint-config",
+  "version": "0.1.0",
+  "description": "Community-recommended best practices for [ESLint](https://eslint.org/) rule configuration.(Use with [Prettier](https://prettier.io/))",
+  "keywords": [
+    "eslint-config",
+    "prettier"
+  ],
+  "homepage": "https://github.com/wang1212/eslint-config#readme",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/wang1212/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wang1212/eslint-config/issues"
   },
   "license": "MIT",
-  "engines": {
-    "node": ">=10"
-  },
-  "author": "",
-  "main": "index.js",
-  "module": "index.esm.js",
-  "browser": "index.web.js",
+  "author": "wang1212",
   "scripts": {
     "prepare": "husky install",
-    "build": "npm run lint && rollup --config",
-    "lint": "eslint src/ --config=.eslintrc.js --fix --quiet --cache --cache-location=node_modules/.cache/.eslintcache --format=pretty",
-    "prepublishOnly": "npm run build",
-    "release": "np"
-  },
-  "lint-staged": {
-    "*.{js}": "npm run lint"
+    "lint": "eslint . --config=.eslintrc.cjs --fix --quiet --cache --cache-location=node_modules/.cache/.eslintcache --format=pretty",
+    "test": "echo test",
+    "build": "echo build",
+    "commit": "cz",
+    "prerelease": "npm run test",
+    "release": "standard-version",
+    "prepublishOnly": "npm run build"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
   "files": [
-    "build/",
-    "index.js",
-    "index.esm.js",
-    "index.web.js"
+    "index.js"
   ],
-  "peerDependencies": {},
-  "devDependencies": {
-    "@babel/core": "^7.15.5",
-    "@babel/eslint-parser": "^7.15.4",
-    "@babel/eslint-plugin": "^7.14.5",
-    "@babel/preset-env": "^7.15.4",
-    "@commitlint/cli": "^16.0.2",
-    "@commitlint/config-conventional": "^16.0.0",
-    "@rollup/plugin-babel": "^5.3.0",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-formatter-pretty": "^4.1.0",
-    "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-jsdoc": "^37.4.2",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-sonarjs": "^0.10.0",
-    "husky": "^7.0.4",
-    "lint-staged": "^12.1.7",
-    "np": "*",
-    "prettier": "2.5.1",
-    "rollup": "^2.64.0",
-    "rollup-plugin-filesize": "^9.1.2",
-    "rollup-plugin-progress": "^1.1.2",
-    "rollup-plugin-terser": "^7.0.2",
-    "rollup-plugin-visualizer": "^5.5.4"
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
   },
-  "dependencies": {}
+  "engines": {
+    "node": ">=12.22.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^39.2.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-sonarjs": "^0.13.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "^8.13.0",
+    "eslint-formatter-pretty": "^4.1.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.8",
+    "prettier": "2.6.2",
+    "standard-version": "^9.3.2"
+  }
 }

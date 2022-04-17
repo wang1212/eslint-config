@@ -1,7 +1,19 @@
-'use strict'
+// see docs: https://eslint.org/docs/user-guide/configuring
 
-if (process.env.NODE_ENV === 'production') {
-	module.exports = require('./build/bundle.cjs')
-} else {
-	module.exports = require('./build/bundle.cjs.min')
-}
+/**
+ * Base JavaScript configuration
+ */
+module.exports = {
+  env: {
+    node: true,
+    browser: true,
+  },
+  extends: [
+    'eslint:recommended',
+    'airbnb-base',
+    'plugin:sonarjs/recommended',
+    'plugin:prettier/recommended',
+    'plugin:jsdoc/recommended',
+  ],
+  rules: {},
+};
