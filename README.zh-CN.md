@@ -1,14 +1,14 @@
 # ESLint Config
 
-![LICENSE](https://badgen.net/github/license/wang1212/eslint-config)
-[![NPM VERSION](https://badgen.net/npm/v/@wang1212/eslint-config)](https://www.npmjs.com/package/@wang1212/eslint-config)
-
 <!-- ![MINZIPPED SIZE](https://badgen.net/bundlephobia/minzip/@wang1212/eslint-config) -->
 
+![LICENSE](https://badgen.net/github/license/wang1212/eslint-config)
+[![NPM VERSION](https://badgen.net/npm/v/@wang1212/eslint-config)](https://www.npmjs.com/package/@wang1212/eslint-config)
 ![DOWNLOAD](https://badgen.net/npm/dt/@wang1212/eslint-config)
 ![LAST COMMIT](https://badgen.net/github/last-commit/wang1212/eslint-config)
 ![GITHUB PACKAGE CI](https://img.shields.io/github/workflow/status/wang1212/eslint-config/Node.js%20Package?label=ci/package%20publish)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/a9b9c06027ba47788617123cf84d3912)](https://www.codacy.com/gh/wang1212/eslint-config/dashboard?utm_source=github.com&utm_medium=referral&utm_content=wang1212/eslint-config&utm_campaign=Badge_Grade)
 
 [English](./README.md) | 简体中文
 
@@ -22,36 +22,36 @@ npm install --save-dev @wang1212/eslint-config
 
 1. 安装 `peerDependencies`：
 
-```bash
-npm install --save-dev eslint
-npm install --save-dev --save-exact prettier
-```
+   ```bash
+   npm install --save-dev eslint
+   npm install --save-dev --save-exact prettier
+   ```
 
 2. 在项目根目录创建一个 **.prettierrc.yml** 文件，配置以下内容:
 
-```yaml
-# see docs: https://prettier.io/docs/en/configuration.html
+   ```yaml
+   # see docs: https://prettier.io/docs/en/configuration.html
 
-# prettier config
-printWidth: 80
-tabWidth: 2
-useTabs: false
-singleQuote: true
-semi: true
-endOfLine: 'lf'
-```
+   # prettier config
+   printWidth: 80
+   tabWidth: 2
+   useTabs: false
+   singleQuote: true
+   semi: true
+   endOfLine: 'lf'
+   ```
 
-_这只是推荐配置，可以根据你的喜好进行调整。_
+   _这只是推荐配置，可以根据你的喜好进行调整。_
 
 3. 然后你需要添加 `@wang1212/eslint-config` 到你的 **.eslintrc.json** 配置文件：
 
-```json
-{
-  "extends": ["@wang1212/eslint-config"]
-}
-```
+   ```json
+   {
+     "extends": ["@wang1212/eslint-config"]
+   }
+   ```
 
-_ESLint 的规则配置是可以根据你自己的要求进行配置覆盖的，请参考[官方文档](https://eslint.org/docs/user-guide/configuring/rules)。_
+   _ESLint 的规则配置是可以根据你自己的要求进行配置覆盖的，请参考[官方文档](https://eslint.org/docs/user-guide/configuring/rules)。_
 
 ## 配置细节
 
