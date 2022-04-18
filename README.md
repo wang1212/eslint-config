@@ -1,6 +1,7 @@
 # ESLint Config
 
 ![LICENSE](https://badgen.net/github/license/wang1212/eslint-config)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/bd6daec4c3f547d98d31359fa97a93f6)](https://app.codacy.com/gh/wang1212/eslint-config?utm_source=github.com&utm_medium=referral&utm_content=wang1212/eslint-config&utm_campaign=Badge_Grade_Settings)
 [![NPM VERSION](https://badgen.net/npm/v/@wang1212/eslint-config)](https://www.npmjs.com/package/@wang1212/eslint-config)
 
 <!-- ![MINZIPPED SIZE](https://badgen.net/bundlephobia/minzip/@wang1212/eslint-config) -->
