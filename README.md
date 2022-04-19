@@ -61,7 +61,7 @@ This configuration is for basic JavaScript, based on the [Airbnb JavaScript Styl
 
 ### `@wang1212/eslint-config/typescript`
 
-This configuration is for basic JavaScript, based on the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript), [SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs), [TSDoc](https://tsdoc.org/). (See [Source](./src/typescript.cjs))
+This configuration is for basic [TypeScript](https://www.typescriptlang.org/), based on the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript), [SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs), [TSDoc](https://tsdoc.org/). (See [Source](./src/typescript.cjs))
 
 Using this configuration also requires some extra work.
 
