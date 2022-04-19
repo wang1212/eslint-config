@@ -12,7 +12,7 @@
 
 English | [简体中文](./README.zh-CN.md)
 
-🔧 Community-recommended best practices for [ESLint](https://eslint.org/) rule configuration.(Use with [Prettier](https://prettier.io/))
+🔧 This package provides community-recommended [ESLint](https://eslint.org/) rules configuration as an extensible shared configuration. (Use with [Prettier](https://prettier.io/))
 
 ## Usage
 
@@ -38,16 +38,16 @@ npm install --save-dev @wang1212/eslint-config
    useTabs: false
    singleQuote: true
    semi: true
-   endOfLine: 'lf'
+   endOfLine: 'auto'
    ```
 
    _This is just a recommended configuration and can be adjusted to your liking._
 
 3. Then you need to add `@wang1212/eslint-config` in your **.eslintrc.json**:
 
-   ```json
+   ```diff
    {
-     "extends": ["@wang1212/eslint-config"]
+   + "extends": ["@wang1212/eslint-config"]
    }
    ```
 
@@ -55,9 +55,34 @@ npm install --save-dev @wang1212/eslint-config
 
 ## Configuration Details
 
-- `@wang1212/eslint-config` (Base JavaScript configuration)
+### `@wang1212/eslint-config`
 
-This configuration is for basic JavaScript, based on the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript), [JSDoc](https://jsdoc.app/), [SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs).
+This configuration is for basic JavaScript, based on the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript), [SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs), [JSDoc](https://jsdoc.app/). (See [Source](./src/javascript.cjs))
+
+### `@wang1212/eslint-config/typescript`
+
+This configuration is for basic JavaScript, based on the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript), [SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs), [TSDoc](https://tsdoc.org/). (See [Source](./src/typescript.cjs))
+
+Using this configuration also requires some extra work.
+
+1. Install additional `peerDependencies`:
+
+   ```bash
+   npm install --save-dev @typescript-eslint/parser
+   ```
+
+2. Then you need to add `@wang1212/eslint-config/typescript` in your **.eslintrc.json**:
+
+   ```diff
+   {
+   - "extends": ["@wang1212/eslint-config"],
+   + "extends": ["@wang1212/eslint-config/typescript"],
+   + "parser": "@typescript-eslint/parser",
+   + "parserOptions": {
+   +   "project": './tsconfig.json'
+   + },
+   }
+   ```
 
 ## Development Guidelines
 

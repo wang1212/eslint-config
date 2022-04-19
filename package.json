@@ -18,7 +18,7 @@
   "author": "wang1212",
   "scripts": {
     "prepare": "husky install",
-    "lint": "eslint . --config=.eslintrc.cjs --fix --quiet --cache --cache-location=node_modules/.cache/.eslintcache --format=pretty",
+    "lint": "eslint . --config=.eslintrc.cjs --ext .js,.cjs,.mjs --fix --quiet --cache --cache-location=node_modules/.cache/.eslintcache --format=pretty",
     "test": "echo test",
     "build": "echo build",
     "commit": "cz",
@@ -31,30 +31,41 @@
     "access": "public"
   },
   "files": [
-    "index.js"
+    "src/"
   ],
-  "main": "index.js",
+  "main": "./src/javascript.cjs",
   "exports": {
-    ".": "./index.js"
+    ".": "./src/javascript.cjs",
+    "./typescript": "./src/typescript.cjs"
   },
   "engines": {
     "node": ">=12.22.0"
   },
   "peerDependencies": {
     "eslint": "^8.0.0",
-    "prettier": "^2.6.2"
+    "prettier": "^2.6.2",
+    "@typescript-eslint/parser": "^5.20.0"
+  },
+  "peerDependenciesMeta": {
+    "@typescript-eslint/parser": {
+      "optional": true
+    }
   },
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
     "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsdoc": "^39.2.2",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-sonarjs": "^0.13.0"
+    "eslint-plugin-sonarjs": "^0.13.0",
+    "eslint-plugin-tsdoc": "^0.2.16"
   },
   "devDependencies": {
     "@commitlint/cli": "16.2.3",
     "@commitlint/config-conventional": "16.2.1",
+    "@typescript-eslint/parser": "^5.20.0",
     "commitizen": "4.2.4",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.13.0",

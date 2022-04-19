@@ -4,10 +4,6 @@
  * Base JavaScript configuration
  */
 module.exports = {
-  env: {
-    node: true,
-    browser: true,
-  },
   extends: [
     'eslint:recommended',
     'airbnb-base',
@@ -15,5 +11,9 @@ module.exports = {
     'plugin:prettier/recommended',
     'plugin:jsdoc/recommended',
   ],
+  env: {
+    node: true,
+    browser: true,
+  },
   rules: {},
 };

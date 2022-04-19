@@ -12,7 +12,7 @@
 
 [English](./README.md) | 简体中文
 
-社区推荐的 [ESLint](https://eslint.org/) 规则配置最佳实践。（与 [Prettier](https://prettier.io/) 配合使用）
+这个包提供了社区推荐的 [ESLint](https://eslint.org/) 规则配置，作为一个可扩展的共享配置。（与 [Prettier](https://prettier.io/) 配合使用）
 
 ## 用法
 
@@ -38,16 +38,16 @@ npm install --save-dev @wang1212/eslint-config
    useTabs: false
    singleQuote: true
    semi: true
-   endOfLine: 'lf'
+   endOfLine: 'auto'
    ```
 
    _这只是推荐配置，可以根据你的喜好进行调整。_
 
 3. 然后你需要添加 `@wang1212/eslint-config` 到你的 **.eslintrc.json** 配置文件：
 
-   ```json
+   ```diff
    {
-     "extends": ["@wang1212/eslint-config"]
+   + "extends": ["@wang1212/eslint-config"]
    }
    ```
 
@@ -55,9 +55,34 @@ npm install --save-dev @wang1212/eslint-config
 
 ## 配置细节
 
-- `@wang1212/eslint-config` (基本 JavaScript 配置)
+### `@wang1212/eslint-config`
 
-该配置适用于基本的 JavaScript，基于 [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)、[JSDoc](https://jsdoc.app/)、[SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs)。
+该配置适用于基本的 JavaScript，基于 [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)、[SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs)、[JSDoc](https://jsdoc.app/)。(See [Source](./src/javascript.cjs))
+
+### `@wang1212/eslint-config/typescript`
+
+该配置适用于基本的 [TypeScript](https://www.typescriptlang.org/)，基于 [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)、[SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs)、[TSDoc](https://tsdoc.org/)。(See [Source](./src/typescript.cjs))
+
+使用这个配置还需要一些额外的工作。
+
+1. 安装额外的 `peerDependencies`:
+
+   ```bash
+   npm install --save-dev @typescript-eslint/parser
+   ```
+
+2. 然后你需要添加 `@wang1212/eslint-config/typescript` 到你的 **.eslintrc.json** 配置文件：
+
+   ```diff
+   {
+   - "extends": ["@wang1212/eslint-config"],
+   + "extends": ["@wang1212/eslint-config/typescript"],
+   + "parser": "@typescript-eslint/parser",
+   + "parserOptions": {
+   +   "project": './tsconfig.json'
+   + },
+   }
+   ```
 
 ## 开发准则
 
