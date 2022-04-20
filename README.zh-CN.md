@@ -84,6 +84,21 @@ npm install --save-dev @wang1212/eslint-config
    }
    ```
 
+### `@wang1212/eslint-config/node`
+
+该配置适用于 JavaScript 编写的 [Node.js](https://nodejs.dev/) 程序，基于 [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)、[SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs)、[JSDoc](https://jsdoc.app/)。(See [Source](./src/node.cjs))
+
+使用这个配置还需要一些额外的工作。
+
+- 你需要添加 `@wang1212/eslint-config/node` 到你的 **.eslintrc.json** 配置文件：
+
+  ```diff
+  {
+  - "extends": ["@wang1212/eslint-config"],
+  + "extends": ["@wang1212/eslint-config/node"],
+  }
+  ```
+
 ## 开发准则
 
 ### Git 提交信息格式

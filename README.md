@@ -84,6 +84,21 @@ Using this configuration also requires some extra work.
    }
    ```
 
+### `@wang1212/eslint-config/node`
+
+This configuration is for [Node.js](https://nodejs.dev/) programs written in JavaScript, based on the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript), [SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs), [JSDoc](https://jsdoc.app/). (See [Source](./src/node.cjs))
+
+Using this configuration also requires some extra work.
+
+- You need to add `@wang1212/eslint-config/node` in your **.eslintrc.json**:
+
+  ```diff
+  {
+  - "extends": ["@wang1212/eslint-config"],
+  + "extends": ["@wang1212/eslint-config/node"],
+  }
+  ```
+
 ## Development Guidelines
 
 ### Git Commit Message Format
