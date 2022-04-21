@@ -37,6 +37,7 @@
   "exports": {
     ".": "./src/javascript.cjs",
     "./typescript": "./src/typescript.cjs",
+    "./react": "./src/react.cjs",
     "./react-typescript": "./src/react-ts.cjs",
     "./react-ts": "./src/react-ts.cjs",
     "./node": "./src/node.cjs"
