@@ -65,6 +65,8 @@ npm install --save-dev @wang1212/eslint-config
 
 该配置适用于基本的 [TypeScript](https://www.typescriptlang.org/)，基于 [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)、[SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs)、[TSDoc](https://tsdoc.org/)。(See [Source](./src/typescript.cjs))
 
+_这个配置也有一个别名 `@wang1212/eslint-config/ts`。_
+
 使用这个配置还需要一些额外的工作。
 
 1. 安装额外的 `peerDependencies`:

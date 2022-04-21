@@ -65,6 +65,8 @@ This configuration is for basic JavaScript, based on the [Airbnb JavaScript Styl
 
 This configuration is for basic [TypeScript](https://www.typescriptlang.org/), based on the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript), [SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs), [TSDoc](https://tsdoc.org/). (See [Source](./src/typescript.cjs))
 
+_This config also has an alias `@wang1212/eslint-config/ts`._
+
 Using this configuration also requires some extra work.
 
 1. Install additional `peerDependencies`:
