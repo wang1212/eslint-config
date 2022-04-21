@@ -18,5 +18,7 @@ module.exports = {
     browser: true,
   },
   plugins: ['@typescript-eslint', 'eslint-plugin-tsdoc'],
-  rules: {},
+  rules: {
+    'tsdoc/syntax': 'warn',
+  },
 };
