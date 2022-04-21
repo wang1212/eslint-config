@@ -103,6 +103,33 @@ Using this configuration also requires some extra work.
   }
   ```
 
+### `@wang1212/eslint-config/react-typescript`
+
+This configuration is for [react.js](https://reactjs.org/) applications written in [TypeScript](https://www.typescriptlang.org/), based on the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript), [Hooks](https://reactjs.org/docs/hooks-intro.html), [SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs), [TSDoc](https://tsdoc.org/), and [check API compatibility](https://github.com/amilajack/eslint-plugin-compat) with [Browserslist](https://github.com/browserslist/browserslist). (See [Source](./src/react-ts.cjs))
+
+_This config also has an alias `@wang1212/eslint-config/react-ts`._
+
+Using this configuration also requires some extra work.
+
+1. Install additional `peerDependencies`:
+
+   ```bash
+   npm install --save-dev @typescript-eslint/parser
+   ```
+
+2. Then you need to add `@wang1212/eslint-config/react-typescript` in your **.eslintrc.json**:
+
+   ```diff
+   {
+   - "extends": ["@wang1212/eslint-config"],
+   + "extends": ["@wang1212/eslint-config/react-typescript"],
+   + "parser": "@typescript-eslint/parser",
+   + "parserOptions": {
+   +   "project": './tsconfig.json'
+   + },
+   }
+   ```
+
 ### `@wang1212/eslint-config/node`
 
 This configuration is for [Node.js](https://nodejs.dev/) programs written in JavaScript, based on the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript), [SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs), [JSDoc](https://jsdoc.app/). (See [Source](./src/node.cjs))
