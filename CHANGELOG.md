@@ -4,17 +4,15 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [0.1.3](https://github.com/wang1212/eslint-config/compare/v0.1.2...v0.1.3) (2022-04-20)
 
-
 ### Features
 
-* **node:** add node with javascript config :sparkles: ([000154a](https://github.com/wang1212/eslint-config/commit/000154af9b3c00cb6feaa3243a0037a86195d35b))
+- **node:** add node with javascript config :sparkles: ([000154a](https://github.com/wang1212/eslint-config/commit/000154af9b3c00cb6feaa3243a0037a86195d35b))
 
 ### [0.1.2](https://github.com/wang1212/eslint-config/compare/v0.1.1...v0.1.2) (2022-04-19)
 
-
 ### Features
 
-* **ts:** add base typescript config :sparkles: ([49f0d9a](https://github.com/wang1212/eslint-config/commit/49f0d9a7b1a0626489ad46e33a45dadd69eaad63))
+- **ts:** add base typescript config :sparkles: ([49f0d9a](https://github.com/wang1212/eslint-config/commit/49f0d9a7b1a0626489ad46e33a45dadd69eaad63))
 
 ### [0.1.1](https://github.com/wang1212/eslint-config/compare/v0.1.0...v0.1.1) (2022-04-18)
 

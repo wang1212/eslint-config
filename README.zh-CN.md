@@ -14,6 +14,8 @@
 
 这个包提供了社区推荐的 [ESLint](https://eslint.org/) 规则配置，作为一个可扩展的共享配置。（与 [Prettier](https://prettier.io/) 配合使用）
 
+_支持 [ESLint V8](https://eslint.org/blog/2021/10/eslint-v8.0.0-released)，Node.js 需要版本 >=12.22.0。_
+
 ## 用法
 
 ```bash
