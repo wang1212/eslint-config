@@ -88,6 +88,21 @@ Using this configuration also requires some extra work.
    }
    ```
 
+### `@wang1212/eslint-config/react`
+
+This configuration is for [react.js](https://reactjs.org/) applications written in JavaScript, based on the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript), [Hooks](https://reactjs.org/docs/hooks-intro.html), [SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs), [JSDoc](https://jsdoc.app/), and [check API compatibility](https://github.com/amilajack/eslint-plugin-compat) with [Browserslist](https://github.com/browserslist/browserslist). (See [Source](./src/react.cjs))
+
+Using this configuration also requires some extra work.
+
+- You need to add `@wang1212/eslint-config/react` in your **.eslintrc.json**:
+
+  ```diff
+  {
+  - "extends": ["@wang1212/eslint-config"],
+  + "extends": ["@wang1212/eslint-config/react"],
+  }
+  ```
+
 ### `@wang1212/eslint-config/node`
 
 This configuration is for [Node.js](https://nodejs.dev/) programs written in JavaScript, based on the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript), [SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs), [JSDoc](https://jsdoc.app/). (See [Source](./src/node.cjs))

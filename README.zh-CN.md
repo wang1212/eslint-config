@@ -88,6 +88,21 @@ _这个配置也有一个别名 `@wang1212/eslint-config/ts`。_
    }
    ```
 
+### `@wang1212/eslint-config/react`
+
+该配置适用于 JavaScript 编写的 [react.js](https://reactjs.org/) 应用，基于 [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)、[Hooks](https://reactjs.org/docs/hooks-intro.html)、[SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs)、[JSDoc](https://jsdoc.app/)，并借助 [Browserslist](https://github.com/browserslist/browserslist) [检测 API 兼容性](https://github.com/amilajack/eslint-plugin-compat)。(See [Source](./src/react.cjs))
+
+使用这个配置还需要一些额外的工作。
+
+- 你需要添加 `@wang1212/eslint-config/react` 到你的 **.eslintrc.json** 配置文件：
+
+  ```diff
+  {
+  - "extends": ["@wang1212/eslint-config"],
+  + "extends": ["@wang1212/eslint-config/react"],
+  }
+  ```
+
 ### `@wang1212/eslint-config/node`
 
 该配置适用于 JavaScript 编写的 [Node.js](https://nodejs.dev/) 程序，基于 [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)、[SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs)、[JSDoc](https://jsdoc.app/)。(See [Source](./src/node.cjs))
