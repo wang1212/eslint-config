@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/wang1212/eslint-config/compare/v0.1.3...v0.1.4) (2022-04-21)
+
+
+### Features
+
+* **react-ts:** add configuration for react application written in typescript :sparkles: ([370d907](https://github.com/wang1212/eslint-config/commit/370d907f892ee8087694620159ab2957b5cba550))
+* **react:** add configuration for writing react app :sparkles: ([832ed0a](https://github.com/wang1212/eslint-config/commit/832ed0a5e99b9dfe4c4bf80af1ea62b08d7bc339))
+* **ts:** add alias `ts` for typescript configuration :technologist: ([f33cc18](https://github.com/wang1212/eslint-config/commit/f33cc18726098aaae16a0e1dcf8bcabd3130e669))
+* **ts:** downgrade tsdoc rules to `warn` :wrench: ([50ac5ca](https://github.com/wang1212/eslint-config/commit/50ac5cab4bd734845ef465df2f9f0b436ca3ae60))
+
 ### [0.1.3](https://github.com/wang1212/eslint-config/compare/v0.1.2...v0.1.3) (2022-04-20)
 
 ### Features
