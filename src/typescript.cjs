@@ -12,6 +12,7 @@ module.exports = {
     'airbnb-typescript/base',
     'plugin:sonarjs/recommended',
     'plugin:prettier/recommended',
+    'plugin:compat/recommended',
   ],
   env: {
     node: true,

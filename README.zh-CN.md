@@ -63,7 +63,7 @@ npm install --save-dev @wang1212/eslint-config
 
 ### `@wang1212/eslint-config/typescript`
 
-该配置适用于基本的 [TypeScript](https://www.typescriptlang.org/)，基于 [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)、[SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs)、[TSDoc](https://tsdoc.org/)。(See [Source](./src/typescript.cjs))
+该配置适用于基本的 [TypeScript](https://www.typescriptlang.org/)，基于 [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)、[SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs)、[TSDoc](https://tsdoc.org/)，并借助 [Browserslist](https://github.com/browserslist/browserslist) [检测 API 兼容性](https://github.com/amilajack/eslint-plugin-compat)。(See [Source](./src/typescript.cjs))
 
 _这个配置也有一个别名 `@wang1212/eslint-config/ts`。_
 
