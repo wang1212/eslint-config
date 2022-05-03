@@ -4,7 +4,9 @@
   "description": "Community-recommended best practices for [ESLint](https://eslint.org/) rule configuration.(Use with [Prettier](https://prettier.io/))",
   "keywords": [
     "eslint-config",
-    "prettier"
+    "prettier",
+    "typescript",
+    "node.js"
   ],
   "homepage": "https://github.com/wang1212/eslint-config#readme",
   "repository": {

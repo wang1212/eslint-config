@@ -59,7 +59,7 @@ npm install --save-dev @wang1212/eslint-config
 
 ### `@wang1212/eslint-config`
 
-This configuration is for basic JavaScript, based on the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript), [SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs), [JSDoc](https://jsdoc.app/). (See [Source](./src/javascript.cjs))
+This configuration is for basic JavaScript, based on the [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript), [SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs), [JSDoc](https://jsdoc.app/), and [check API compatibility](https://github.com/amilajack/eslint-plugin-compat) with [Browserslist](https://github.com/browserslist/browserslist). (See [Source](./src/javascript.cjs))
 
 ### `@wang1212/eslint-config/typescript`
 

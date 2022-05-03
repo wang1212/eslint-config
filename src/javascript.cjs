@@ -9,6 +9,7 @@ module.exports = {
     'airbnb-base',
     'plugin:sonarjs/recommended',
     'plugin:prettier/recommended',
+    'plugin:compat/recommended',
     'plugin:jsdoc/recommended',
   ],
   env: {

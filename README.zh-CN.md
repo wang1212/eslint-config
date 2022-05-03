@@ -59,7 +59,7 @@ npm install --save-dev @wang1212/eslint-config
 
 ### `@wang1212/eslint-config`
 
-该配置适用于基本的 JavaScript，基于 [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)、[SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs)、[JSDoc](https://jsdoc.app/)。(See [Source](./src/javascript.cjs))
+该配置适用于基本的 JavaScript，基于 [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)、[SonarJS](https://github.com/SonarSource/eslint-plugin-sonarjs)、[JSDoc](https://jsdoc.app/)，并借助 [Browserslist](https://github.com/browserslist/browserslist) [检测 API 兼容性](https://github.com/amilajack/eslint-plugin-compat)。(See [Source](./src/javascript.cjs))
 
 ### `@wang1212/eslint-config/typescript`
 
