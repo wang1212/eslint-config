@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/wang1212/eslint-config/compare/v0.1.4...v0.1.5) (2022-05-03)
+
+
+### Features
+
+* **js:** add `eslint-plugin-compat` config :sparkles: ([17f0d1d](https://github.com/wang1212/eslint-config/commit/17f0d1d89e43670c53dd28d5bc2ca764f7fece50))
+* **ts:** add `plugin:compat/recommended` config :sparkles: ([60b99e0](https://github.com/wang1212/eslint-config/commit/60b99e08f22c08554c74e02cec5e80768c1c3768))
+
 ### [0.1.4](https://github.com/wang1212/eslint-config/compare/v0.1.3...v0.1.4) (2022-04-21)
 
 
