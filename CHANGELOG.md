@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/wang1212/eslint-config/compare/v0.1.5...v0.2.0) (2022-05-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* **ts,react-ts:** when using typescript-related configuration, users now need to install the
+`@typescript-eslint/eslint-plugin` dependencies themselves.
+
+### Features
+
+* **ts,react-ts:** add `@typescript-eslint/eslint-plugin` to peerDependenciesMeta :boom: ([4ab6efc](https://github.com/wang1212/eslint-config/commit/4ab6efc3f4db97c7142416d7798af338bb2670ab))
+
 ### [0.1.5](https://github.com/wang1212/eslint-config/compare/v0.1.4...v0.1.5) (2022-05-03)
 
 
