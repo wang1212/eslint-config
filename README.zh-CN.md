@@ -72,8 +72,10 @@ _这个配置也有一个别名 `@wang1212/eslint-config/ts`。_
 1. 安装额外的 `peerDependencies`:
 
    ```bash
-   npm install --save-dev @typescript-eslint/parser
+   npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin
    ```
+
+   _**注意：** 按照官方的维护策略，以上依赖安装时应始终保证版本号相同。_
 
 2. 然后你需要添加 `@wang1212/eslint-config/typescript` 到你的 **.eslintrc.json** 配置文件：
 
@@ -114,8 +116,10 @@ _这个配置也有一个别名 `@wang1212/eslint-config/react-ts`。_
 1. 安装额外的 `peerDependencies`:
 
    ```bash
-   npm install --save-dev @typescript-eslint/parser
+   npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin
    ```
+
+   _**注意：** 按照官方的维护策略，以上依赖安装时应始终保证版本号相同。_
 
 2. 然后你需要添加 `@wang1212/eslint-config/react-typescript` 到你的 **.eslintrc.json** 配置文件：
 

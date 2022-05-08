@@ -72,8 +72,10 @@ Using this configuration also requires some extra work.
 1. Install additional `peerDependencies`:
 
    ```bash
-   npm install --save-dev @typescript-eslint/parser
+   npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin
    ```
+
+   _**Note:** according to the official maintenance policy, the above dependencies should always be installed with the same version number._
 
 2. Then you need to add `@wang1212/eslint-config/typescript` in your **.eslintrc.json**:
 
@@ -114,8 +116,10 @@ Using this configuration also requires some extra work.
 1. Install additional `peerDependencies`:
 
    ```bash
-   npm install --save-dev @typescript-eslint/parser
+   npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin
    ```
+
+   _**Note:** according to the official maintenance policy, the above dependencies should always be installed with the same version number._
 
 2. Then you need to add `@wang1212/eslint-config/react-typescript` in your **.eslintrc.json**:
 

@@ -6,6 +6,7 @@
     "eslint-config",
     "prettier",
     "typescript",
+    "react.js",
     "node.js"
   ],
   "homepage": "https://github.com/wang1212/eslint-config#readme",
@@ -49,17 +50,20 @@
     "node": ">=12.22.0"
   },
   "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
     "eslint": "^8.0.0",
-    "prettier": "^2.6.2",
-    "@typescript-eslint/parser": "^5.20.0"
+    "prettier": "^2.6.2"
   },
   "peerDependenciesMeta": {
+    "@typescript-eslint/eslint-plugin": {
+      "optional": true
+    },
     "@typescript-eslint/parser": {
       "optional": true
     }
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.20.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
@@ -79,6 +83,7 @@
   "devDependencies": {
     "@commitlint/cli": "16.2.4",
     "@commitlint/config-conventional": "16.2.4",
+    "@typescript-eslint/eslint-plugin": "5.20.0",
     "@typescript-eslint/parser": "5.20.0",
     "commitizen": "4.2.4",
     "cz-conventional-changelog": "3.3.0",
