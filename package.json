@@ -85,7 +85,7 @@
     "@commitlint/config-conventional": "17.0.3",
     "@typescript-eslint/eslint-plugin": "5.29.0",
     "@typescript-eslint/parser": "5.29.0",
-    "commitizen": "4.2.4",
+    "commitizen": "4.2.5",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.20.0",
     "eslint-formatter-pretty": "4.1.0",
