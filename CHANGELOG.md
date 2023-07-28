@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/wang1212/eslint-config/compare/v0.2.1...v0.3.0) (2023-07-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* **deps:** Update node to v16, prettier to v3, @typescript-eslint/parser to v6
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jsdoc to v46 ([#68](https://github.com/wang1212/eslint-config/issues/68)) ([4ecf12f](https://github.com/wang1212/eslint-config/commit/4ecf12f4e4c9ed91a51f412b309f9a8866054fe4))
+* **deps:** update dependency eslint-plugin-n to v16 ([#71](https://github.com/wang1212/eslint-config/issues/71)) ([bb4fde5](https://github.com/wang1212/eslint-config/commit/bb4fde5502c07f839c59002cf0c5a4d9ccc39347))
+* **deps:** update dependency eslint-plugin-sonarjs to ^0.14.0 ([#44](https://github.com/wang1212/eslint-config/issues/44)) ([f4a4d75](https://github.com/wang1212/eslint-config/commit/f4a4d75f237dec62c81da56819e89bc735f3b60e))
+* **deps:** update dependency eslint-plugin-sonarjs to ^0.16.0 ([#50](https://github.com/wang1212/eslint-config/issues/50)) ([0c05f57](https://github.com/wang1212/eslint-config/commit/0c05f5710badfce0e2d1cc7ca011bf15bf48adbd))
+* **deps:** update dependency eslint-plugin-sonarjs to ^0.19.0 ([#58](https://github.com/wang1212/eslint-config/issues/58)) ([a2a430e](https://github.com/wang1212/eslint-config/commit/a2a430e2d1bb09269e07d154a909a9259f102fa7))
+
+
+* **deps:** update eslint, prettier, typescript-parser version ([51c700a](https://github.com/wang1212/eslint-config/commit/51c700a1abe185d111f2b49c97ec34229ec86c37))
+
 ### [0.2.1](https://github.com/wang1212/eslint-config/compare/v0.2.0...v0.2.1) (2022-05-22)
 
 ## [0.2.0](https://github.com/wang1212/eslint-config/compare/v0.1.5...v0.2.0) (2022-05-08)
