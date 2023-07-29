@@ -171,15 +171,15 @@ _这种约束依赖于社区提供的工具 [commitizen](http://commitizen.githu
 
 ```bash
 # 在发布到 npm 存储库之前更新版本并生成更改日志
-npm run release # npm run release -- --first-release
+npm run release
 # 或者，进行预览
 npm run release -- --dry-run
 
-# 然后发布
+# 然后发布到 npm，如果在自动发布到 npm 时没有选择 yes
 npm publish # npm publish --access public
 ```
 
-_这些工作是在社区提供的 [standard-version](https://github.com/conventional-changelog/standard-version) 工具的帮助下完成的。_
+_这些工作是在社区提供的 [release-it](https://github.com/release-it/release-it) 工具的帮助下完成的。_
 
 ## 许可
 

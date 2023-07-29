@@ -26,7 +26,7 @@
     "build": "echo build",
     "commit": "cz",
     "prerelease": "npm run test",
-    "release": "standard-version",
+    "release": "release-it",
     "prepublishOnly": "npm run build"
   },
   "publishConfig": {
@@ -83,6 +83,7 @@
   "devDependencies": {
     "@commitlint/cli": "17.6.7",
     "@commitlint/config-conventional": "17.6.7",
+    "@release-it/conventional-changelog": "^7.0.0",
     "@typescript-eslint/eslint-plugin": "6.2.0",
     "@typescript-eslint/parser": "6.2.0",
     "commitizen": "4.3.0",
@@ -92,6 +93,6 @@
     "husky": "8.0.3",
     "lint-staged": "13.2.3",
     "prettier": "3.0.0",
-    "standard-version": "9.5.0"
+    "release-it": "^16.1.3"
   }
 }
