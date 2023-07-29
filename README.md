@@ -14,7 +14,7 @@ English | [简体中文](./README.zh-CN.md)
 
 🔧 This package provides community-recommended [ESLint](https://eslint.org/) rules configuration as an extensible shared configuration. (Use with [Prettier](https://prettier.io/))
 
-_Support [ESLint V8](https://eslint.org/blog/2021/10/eslint-v8.0.0-released), Node.js requires version >=12.22.0._
+_Support [ESLint V8](https://eslint.org/blog/2021/10/eslint-v8.0.0-released), Node.js requires version >=16._
 
 ## Usage
 
