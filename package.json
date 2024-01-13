@@ -47,7 +47,7 @@
     "./node": "./src/node.cjs"
   },
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.0.0",
