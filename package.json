@@ -83,7 +83,7 @@
   "devDependencies": {
     "@commitlint/cli": "18.4.4",
     "@commitlint/config-conventional": "18.4.4",
-    "@release-it/conventional-changelog": "7.0.2",
+    "@release-it/conventional-changelog": "8.0.1",
     "@typescript-eslint/eslint-plugin": "6.18.1",
     "@typescript-eslint/parser": "6.18.1",
     "commitizen": "4.3.0",
