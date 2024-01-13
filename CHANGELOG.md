@@ -1,3 +1,22 @@
+
+
+## [0.4.0](https://github.com/wang1212/eslint-config/compare/v0.3.1...v0.4.0) (2024-01-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* Now requires node v18+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jsdoc to v48 ([#116](https://github.com/wang1212/eslint-config/issues/116)) ([67753c1](https://github.com/wang1212/eslint-config/commit/67753c1175e058d45a957776e26a4d2f4fbb2bfd))
+* **deps:** update dependency eslint-plugin-sonarjs to ^0.23.0 ([#111](https://github.com/wang1212/eslint-config/issues/111)) ([52beadb](https://github.com/wang1212/eslint-config/commit/52beadb71624b1f17a1f7360e026d72a079677e1))
+
+
+### Miscellaneous Chores
+
+* requires node v18+ ([e122485](https://github.com/wang1212/eslint-config/commit/e122485550048fb93267d6a0e254719e37d1040c))
+
 # Changelog
 
 ## [0.3.1](https://github.com/wang1212/eslint-config/compare/v0.3.0...v0.3.1) (2023-09-27)

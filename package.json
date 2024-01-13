@@ -1,6 +1,6 @@
 {
   "name": "@wang1212/eslint-config",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "Community-recommended best practices for [ESLint](https://eslint.org/) rule configuration.(Use with [Prettier](https://prettier.io/))",
   "keywords": [
     "eslint-config",
