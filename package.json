@@ -78,7 +78,7 @@
     "eslint-plugin-react": "^7.33.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-sonarjs": "^0.25.0",
-    "eslint-plugin-tsdoc": "^0.2.17"
+    "eslint-plugin-tsdoc": "^0.4.0"
   },
   "devDependencies": {
     "@commitlint/cli": "19.6.1",
